@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-nov-2016, 21:35:08
+    Author     : YI
+*/
+
+#bloque{
+    width: 100%;
+}
+
+#bloque .columna1, #bloque .columna2{
+    display: inline-block;
+}
+.columna1{
+    width: 150px;
+    height: 500px;
+    margin-left: 30px;
+}
+.columna2{
+    width: 990px;
+    height: 500px;
+    margin: auto;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    letter-spacing: 0px;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    color: #9928BC;
+}
+
+h2{
+    margin: 0px;
+    padding: 10px 0px 5px 0px;
+    letter-spacing: 0px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+t1
+{
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    letter-spacing: -1px;
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    color: #0A7492;
+}
+t2
+{
+    margin: 10px;
+    padding: 20px 0px 30px 0px;
+    letter-spacing: 0px;
+    font-size: 1.2em;
+    color: #0A7492;
+    font-weight: 500;
+}
+t3
+{
+    margin: 10px;
+    padding: 20px 0px 30px 0px;
+    letter-spacing: 0px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+table.tabs {
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: transparent;
+    font-size: 1.2em;
+
+
+
+    width: 69.5em!important;
+    height: 1.5em!important;
+}
+
+th.tabck {
+    border: #0A7492 solid 1px;
+    border-bottom: 0;
+    border-radius: 0.5em 0.5em 0 0;
+    background-color: transparent;
+    padding: 0.3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+th.tabcks {
+    border: 0;
+    border-bottom: #0A7492 solid 1px;
+}
+
+th.tabcks:first-child {
+    border-left: #0A7492 solid 1px;
+}
+
+th.tabcks:last-child {
+    border-right: #0A7492 solid 1px;
+}
+
+table.tabs tr:first-child th.tabcks {
+    border-left: none;
+    border-right: none;
+}
+
+table.tabs[data-filas] th.tabck {
+    box-shadow: 0 -0.15em 0.1em 0 white;
+}
+
+table.tabs td {
+    border: #0A7492 solid 1px;
+    border-top: 0;
+}
+
+tr.filadiv {
+    background-color: #0A7492;
+}
+
+div.tabdiv {
+    background-color: #FFF;
+    border: 0;
+    padding: 0.5em;
+    overflow: auto;
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+td#tab-0 > div {
+    width: 68.25em!important;
+    height: 19em!important;
+}

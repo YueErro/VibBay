@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties
+To change this template file, choose Tools | Templates
+and open the template in the editor
+*/
+/* 
+    Created on : 19-nov-2016, 19:49:09
+    Author     : YI
+*/
+
+#main{
+    background-image: url("../img/fondo.jpg");
+    top: 10px;
+    left: 10px;
+    width: 1325px;
+    height: 485px;
+
+    background-size: 1295px 470px;
+}
+
+#buscador 
+{
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 420px;
+    height: 20px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+#body 
+{
+    margin: 0px;
+    padding: 0px;
+    background: #180E0B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15pt;
+    color: #000000;
+}
+
+h1
+{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    letter-spacing: -1px;
+    font-size: 3em;
+    color: #0A7492;
+}
+
+h2 
+{
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    letter-spacing: -0px;
+    font-size: 1.4em;
+    color: #000000;
+    font-weight: 500;
+}
+
+h3
+{
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    letter-spacing: -1px;
+    font-size: 1.4em;
+    color: #000000;
+    font-weight: 500;
+}
+
+h4
+{
+    margin: 0px;
+    padding: 15px 0px 15px 0px;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 500;
+}
+
+h5
+{
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 500;
+}
+h6
+{
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 500;
+}
+p, ol, ul 
+{
+    margin-top: 0px;
+    line-height: 160%;
+}
+
+p
+{
+    margin-bottom: 2em;
+    line-height: 160%;
+}
+
+strong 
+{
+    font-weight: 700;
+}
+
+a 
+{
+    color: #9A9A9A;
+}
+
+a:hover 
+{
+    text-decoration: none;
+}
+
+#contenedor
+{
+    position: relative;
+    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 450px;
+    height: 550px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+#bloque{
+    width: 100%;
+}
+
+#bloque .A, #bloque .B{
+    display: inline-block;
+    margin: 0 210px 0;
+}
+
+#bloque1 {
+    width: 1325px;
+    height: 520px;
+}
